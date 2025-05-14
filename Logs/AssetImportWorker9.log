@@ -766,3 +766,82 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3112.384410 seconds.
+  path: Assets/ImportAssets/Units/ToonyTinyPeople/TT_demo/ToonyTiny_City_Pack.tga
+  artifactKey: Guid(d8467266b321e0342acb2a5b24a06fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Units/ToonyTinyPeople/TT_demo/ToonyTiny_City_Pack.tga using Guid(d8467266b321e0342acb2a5b24a06fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e4447ed58ad329afaf9d8192f17ae504') in 0.029547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.712793 seconds.
+  path: Assets/ImportAssets/Units/ToonyTinyPeople/TT_demo/animation/female/f_idle_A.FBX
+  artifactKey: Guid(103a90a3600679b4697f20cc5792b742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Units/ToonyTinyPeople/TT_demo/animation/female/f_idle_A.FBX using Guid(103a90a3600679b4697f20cc5792b742) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0715cb230cdb93062b42db58cf50de55') in 0.006493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 0.095903 seconds.
+  path: Assets/ImportAssets/Units/ToonyTinyPeople/TT_demo/animation/female/f_melee_combat_run.FBX
+  artifactKey: Guid(5b7c6009246c70644acfab1158c5529d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Units/ToonyTinyPeople/TT_demo/animation/female/f_melee_combat_run.FBX using Guid(5b7c6009246c70644acfab1158c5529d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a21dc973ea2bd7d007b996d78616fe0b') in 0.003133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ImportAssets/Units/ToonyTinyPeople/TT_demo/animation/female/f_melee_combat_attack_A.FBX
+  artifactKey: Guid(9d953fa5dc3e2c943a2d0eee3a072c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Units/ToonyTinyPeople/TT_demo/animation/female/f_melee_combat_attack_A.FBX using Guid(9d953fa5dc3e2c943a2d0eee3a072c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8a4330e33a26966e999307720a1f6c7f') in 0.003074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ImportAssets/Units/ToonyTinyPeople/TT_demo/animation/female/f_run.FBX
+  artifactKey: Guid(0847a0b7fc33c8a4fb959b7da2c742ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Units/ToonyTinyPeople/TT_demo/animation/female/f_run.FBX using Guid(0847a0b7fc33c8a4fb959b7da2c742ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f355c3e93ac6cc3b14cf1f0f414e09f0') in 0.002926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ImportAssets/Units/ToonyTinyPeople/TT_demo/animation/female/f_walk.FBX
+  artifactKey: Guid(bcc64d51e079b6b4598ee4d3eceb0f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Units/ToonyTinyPeople/TT_demo/animation/female/f_walk.FBX using Guid(bcc64d51e079b6b4598ee4d3eceb0f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f2af7e4a6d313d4f89a336d1d1d3ebf7') in 0.003108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 23.584299 seconds.
+  path: Assets/ImportAssets/Units/ToonyTinyPeople/TT_demo/prefabs/TT_demo_male_B.prefab
+  artifactKey: Guid(907fd825e3988774caab4234b943bf44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Units/ToonyTinyPeople/TT_demo/prefabs/TT_demo_male_B.prefab using Guid(907fd825e3988774caab4234b943bf44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '64d0b7eb11bd9810f466440529ac5652') in 0.010979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ImportAssets/Units/ToonyTinyPeople/TT_demo/prefabs/TT_demo_zombie.prefab
+  artifactKey: Guid(b14953694d54eea4eb66f453e525024c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Units/ToonyTinyPeople/TT_demo/prefabs/TT_demo_zombie.prefab using Guid(b14953694d54eea4eb66f453e525024c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bf372f11368389d67f9a2a4aacaf482c') in 0.011728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 125, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting

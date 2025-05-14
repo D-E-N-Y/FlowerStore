@@ -3,7 +3,8 @@ using UnityEngine;
 public class GameBootstraper : MonoBehaviour
 {
     [SerializeField] private ResourceSystem resourceSystem;
-    
+    [SerializeField] private ClientsSystem clientsSystem;
+
     [SerializeField] private Store store;
 
     [SerializeField] private GameUI gameUI;
@@ -11,6 +12,7 @@ public class GameBootstraper : MonoBehaviour
     private void Start() 
     {
         resourceSystem.Initialize();
+        clientsSystem.Initialize();
         
         store.Initialize();
 
