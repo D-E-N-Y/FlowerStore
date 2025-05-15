@@ -13,7 +13,12 @@ public class Client : MonoBehaviour
     [SerializeField] private UnitMovement movement;
 
     [SerializeField, Range(1, 10)] private float lookingTime;
-    
+    [SerializeField, Range(1, 10)] private float changePay;
+    [SerializeField, Range(1, 10)] private float changeOut;
+
+    [SerializeField, Range(1, 10)] private float changeGetTips;
+    [SerializeField] private DropedItem pelt;
+
     private Store store;
     private CashierOffice cashierOffice;
     private List<SCost> priceItem;
@@ -47,39 +52,18 @@ public class Client : MonoBehaviour
     {
         while (true)
         {
-            switch (state)// get item and go to cahier
+            switch (state)
             {
                 case EClientState.Idle:
-                    movement.MoveTo(goalPosition);
-                    state = EClientState.Move;
+                    yield return Idle();
                     break;
 
                 case EClientState.OnStore:
-                    Shelve _shelve = store.GetRandomShelve();
-
-                    movement.MoveTo(_shelve.RandomPosition());
-                    while (movement.isMoving) yield return null;
-
-                    yield return new WaitForSeconds(lookingTime);
-
-                    int choice = Random.Range(1, 11);
-                    if (choice <= 5)
-                    {
-                        priceItem = _shelve.GetPrice();
-                        cashierOffice = store.GetCashierOffice();
-                        cashierOffice.AddToOrder(this);
-                    }
-                    if (choice == 10)
-                    {
-                        GoOut();
-                    }
+                    yield return OnStore();
                     break;
 
                 case EClientState.OnOrder:
-                    while (movement.isMoving) yield return null;
-
-                    if (!cashierOffice.isService)
-                        inPlace?.Invoke();       
+                    yield return OnOrder();
                     break;
             }
 
@@ -87,13 +71,63 @@ public class Client : MonoBehaviour
         }
     }
 
+    private IEnumerator Idle()
+    {
+        movement.MoveTo(goalPosition);
+        state = EClientState.Move;
+
+        yield return null;
+    }
+
+    private IEnumerator OnStore()
+    {
+        Shelve _shelve = store.GetRandomShelve();
+
+        movement.MoveTo(_shelve.RandomPosition());
+        while (movement.isMoving) yield return null;
+
+        yield return new WaitForSeconds(lookingTime);
+
+        int choice = Random.Range(1, 11);
+        if (choice <= changePay)
+        {
+            priceItem = _shelve.GetPrice();
+            cashierOffice = store.GetCashierOffice();
+            cashierOffice.AddToOrder(this);
+        }
+        else if (choice == changeOut)
+        {
+            GoOut();
+        }
+    }
+
+    private IEnumerator OnOrder()
+    {
+        while (movement.isMoving) yield return null;
+
+        if (!cashierOffice.isService)
+            inPlace?.Invoke();       
+    }
+
     public void Pay()
     {
         foreach (SCost price in priceItem)
         {
             ResourceSystem.current.AddResource(price.resource, price.amount);
-        } 
+        }
         priceItem = null;
+
+        // get tips
+        int choice = Random.Range(0, 10);
+        if (choice <= changeGetTips)
+        {
+            Vector3 _position = new Vector3(
+                Random.Range(transform.position.x - 0.5f, transform.position.x + 0.5f),
+                Random.Range(transform.position.y - 0.5f, transform.position.y + 0.5f),
+                Random.Range(transform.position.z - 0.5f, transform.position.z + 0.5f)
+            );
+            Instantiate(pelt, _position, Quaternion.identity).Initialize();
+        }
     }
 
     public void SetState(EClientState state) => this.state = state;

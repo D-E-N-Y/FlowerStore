@@ -17,15 +17,15 @@ public class Shelve : MonoBehaviour
     [SerializeField] private List<Transform> lookPositions;
 
     [SerializeField] private List<Transform> floors;
-    public Flower flower { get; private set; }
+    public PreviewFlower flower { get; private set; }
 
     public void Initialize()
     {
         // initialize flowers in for each floor        
-        flower = floors[0].GetComponentInChildren<Flower>();
+        flower = floors[0].GetComponentInChildren<PreviewFlower>();
         foreach(Transform floor in floors)
         {        
-            foreach(Flower current in floor.GetComponentsInChildren<Flower>())
+            foreach(PreviewFlower current in floor.GetComponentsInChildren<PreviewFlower>())
             {
                 current.Initialize();
             }

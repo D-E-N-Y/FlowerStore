@@ -161,6 +161,10 @@ MonoBehaviour:
   - {fileID: 6434072053392628357}
   movement: {fileID: 5909489693711301909}
   lookingTime: 5
+  changePay: 5
+  changeOut: 10
+  changeGetTips: 3
+  pelt: {fileID: 7482054142696635414, guid: 1d6fe2e9e99984a2089b2c4dfa174281, type: 3}
 --- !u!114 &5909489693711301909
 MonoBehaviour:
   m_ObjectHideFlags: 0
