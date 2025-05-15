@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Client : MonoBehaviour 
 {
+    public System.Action inPlace;
+
     private Vector3 goalPosition;
     public EClientState state { get; private set; }
     
@@ -13,6 +15,8 @@ public class Client : MonoBehaviour
     [SerializeField, Range(1, 10)] private float lookingTime;
     
     private Store store;
+    private CashierOffice cashierOffice;
+    private List<SCost> priceItem;
 
     private Coroutine live;
 
@@ -43,7 +47,7 @@ public class Client : MonoBehaviour
     {
         while (true)
         {
-            switch (state)
+            switch (state)// get item and go to cahier
             {
                 case EClientState.Idle:
                     movement.MoveTo(goalPosition);
@@ -61,13 +65,21 @@ public class Client : MonoBehaviour
                     int choice = Random.Range(1, 11);
                     if (choice <= 5)
                     {
-                        // get item and go to cahier
+                        priceItem = _shelve.GetPrice();
+                        cashierOffice = store.GetCashierOffice();
+                        cashierOffice.AddToOrder(this);
                     }
                     if (choice == 10)
                     {
-                        state = EClientState.OutStore;
-                        movement.MoveTo(goalPosition);
+                        GoOut();
                     }
+                    break;
+
+                case EClientState.OnOrder:
+                    while (movement.isMoving) yield return null;
+
+                    if (!cashierOffice.isService)
+                        inPlace?.Invoke();       
                     break;
             }
 
@@ -75,10 +87,28 @@ public class Client : MonoBehaviour
         }
     }
 
+    public void Pay()
+    {
+        foreach (SCost price in priceItem)
+        {
+            ResourceSystem.current.AddResource(price.resource, price.amount);
+        } 
+        priceItem = null;
+    }
+
     public void SetState(EClientState state) => this.state = state;
     public void SetStore(Store store) => this.store = store;
 
+    public void MoveTo(Vector3 position)
+    {
+        movement.MoveTo(position);
+    }
 
+    public void GoOut()
+    {
+        state = EClientState.OutStore;
+        movement.MoveTo(goalPosition);
+    }
 
     public void Final()
     {
