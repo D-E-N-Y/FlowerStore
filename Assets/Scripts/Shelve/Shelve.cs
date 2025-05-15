@@ -1,10 +1,9 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Shelve : MonoBehaviour 
 {
-    public Action updateData;
+    public System.Action updateData;
     
     [SerializeField] private List<SCost> buildCost;
     public bool isBuild { get; private set; }
@@ -34,6 +33,8 @@ public class Shelve : MonoBehaviour
 
         currentLevel = 1;
         maxLevel = 10;
+
+        isBuild = true;
     }
 
     public void Upgrade()
@@ -67,4 +68,5 @@ public class Shelve : MonoBehaviour
     }
 
     public List<Transform> Positions() => lookPositions;
+    public Vector3 RandomPosition() => lookPositions[Random.Range(0, lookPositions.Count)].position;
 }

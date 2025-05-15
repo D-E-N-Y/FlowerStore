@@ -16,6 +16,6 @@ public class GameBootstraper : MonoBehaviour
         
         store.Initialize();
 
-        gameUI.Initialize();
+        gameUI.Initialize(store);
     }
 }
