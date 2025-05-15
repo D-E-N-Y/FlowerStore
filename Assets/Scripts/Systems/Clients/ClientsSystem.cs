@@ -41,7 +41,7 @@ public class ClientsSystem : MonoBehaviour
             
             Spawner _spawner = spawners[Random.Range(0, spawners.Count)];
 
-            _client.Initialize(_spawner.GetGoalPosition(), _spawner.GetSpawnPosition());
+            _client.Initialize(_spawner.GetGoalPosition(), _spawner.GetSpawnPosition(), _spawner.GetStartRotate());
             
             if(clients.Contains(_client))
             {

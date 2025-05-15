@@ -4,6 +4,7 @@ using UnityEngine;
 public class Spawner : MonoBehaviour 
 {
     [SerializeField] private BoxCollider goal;
+    [SerializeField] private Vector3 startRotate;
     private BoxCollider boxCollider;
 
     public void Initialize()
@@ -11,6 +12,8 @@ public class Spawner : MonoBehaviour
         boxCollider = gameObject.GetComponent<BoxCollider>();
     }
 
+    public Vector3 GetStartRotate() => startRotate;
+    
     public Vector3 GetGoalPosition()
     {
         return GetRandomPositionOnCollider(goal);

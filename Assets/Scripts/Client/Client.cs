@@ -1,38 +1,37 @@
+using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
 
-[RequireComponent(typeof(NavMeshAgent))]
 public class Client : MonoBehaviour 
 {
     private Vector3 goalPosition;
-    private NavMeshAgent agent;
     
-    public void Initialize(Vector3 goalPosition, Vector3 spawnPosition)
+    [SerializeField] private List<GameObject> meshes;    
+    [SerializeField] private UnitMovement movement;
+    
+    public void Initialize(Vector3 goalPosition, Vector3 spawnPosition, Vector3 spawnRotate)
     {
         this.goalPosition = goalPosition;
         transform.position = spawnPosition;
-        agent = GetComponent<NavMeshAgent>();
+        transform.rotation = Quaternion.Euler(spawnRotate);
 
-        RandomFront();
+        RandomMesh();
 
         gameObject.SetActive(true);
-
-        agent.SetDestination(goalPosition);
+        movement.MoveTo(goalPosition);
     }
 
-    private void RandomFront()
+    private void RandomMesh()
     {
+        meshes.ForEach(x => x.SetActive(false));
 
-    }
-
-    public void ContinueMainPath()
-    {
-
+        GameObject _mesh = meshes[Random.Range(0, meshes.Count)];
+        movement.Initialize(_mesh.GetComponent<Animator>());
+        _mesh.SetActive(true);
     }
 
     public void Final()
     {
-        agent.ResetPath();
+        movement.Reset();
         gameObject.SetActive(false);
     }
 }

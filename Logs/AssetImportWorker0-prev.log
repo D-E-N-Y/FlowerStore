@@ -10,9 +10,9 @@ Available memory:        15909 MB
 Using pre-set license
 Pro License: YES
 
-(Unity:6426): Gtk-CRITICAL **: 10:22:18.520: gtk_window_set_default_icon: assertion 'GDK_IS_PIXBUF (icon)' failed
+(Unity:11115): Gtk-CRITICAL **: 11:10:08.637: gtk_window_set_default_icon: assertion 'GDK_IS_PIXBUF (icon)' failed
 
-(Unity:6426): GLib-GObject-CRITICAL **: 10:22:18.520: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+(Unity:11115): GLib-GObject-CRITICAL **: 11:10:08.637: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
 Desktop is 2560 x 1080 @ 60 Hz
 Initialize udev device monitor.
 
@@ -28,7 +28,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-35095
+45697
 Successfully changed project path to: /home/deny/UnityProjects/FlowerStore
 /home/deny/UnityProjects/FlowerStore
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -62,12 +62,12 @@ Successfully changed project path to: /home/deny/UnityProjects/FlowerStore
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [131946920264512] Host "[IP] 192.168.1.106 [Port] 0 [Flags] 2 [Guid] 2493870055 [EditorId] 2493870055 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.106) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [134537880220480] Host "[IP] 192.168.1.106 [Port] 0 [Flags] 2 [Guid] 276668484 [EditorId] 276668484 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.106) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [131946920264512] Host "[IP] 192.168.1.106 [Port] 0 [Flags] 2 [Guid] 2493870055 [EditorId] 2493870055 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.106) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [134537880220480] Host "[IP] 192.168.1.106 [Port] 0 [Flags] 2 [Guid] 276668484 [EditorId] 276668484 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.106) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 3.73 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 3.02 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.37f1 (340ba89e4c23)
 [Subsystems] Discovering subsystems at path /home/deny/Unity/Hub/Editor/2022.3.37f1/Editor/Data/Resources/UnitySubsystems
@@ -88,55 +88,55 @@ blend_equation_advanced_coherent GL_NVX_blend_equation_advanced_multi_draw_buffe
 der_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_program_multiview GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_part
 itioned GL_NV_shader_texture_footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_uniform_buffer_std430_layout GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_cohe
 rent GL_OVR_multiview GL_OVR_multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
-OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 1849352072
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle -993073240
 Initialize mono
 Mono path[0] = '/home/deny/Unity/Hub/Editor/2022.3.37f1/Editor/Data/Managed'
 Mono path[1] = '/home/deny/Unity/Hub/Editor/2022.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/deny/Unity/Hub/Editor/2022.3.37f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56426
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56115
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/deny/Unity/Hub/Editor/2022.3.37f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /home/deny/Unity/Hub/Editor/2022.3.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /home/deny/Unity/Hub/Editor/2022.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: /home/deny/Unity/Hub/Editor/2022.3.37f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.015870 seconds.
-- Loaded All Assemblies, in  0.453 seconds
+Registered in 0.014258 seconds.
+- Loaded All Assemblies, in  0.408 seconds
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 329 ms
+Android Extension - Scanning For ADB Devices 458 ms
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.817 seconds
-Domain Reload Profiling: 1270ms
-	BeginReloadAssembly (86ms)
+- Finished resetting the current domain, in  0.933 seconds
+Domain Reload Profiling: 1341ms
+	BeginReloadAssembly (84ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (51ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (95ms)
-	LoadAllAssembliesAndSetupDomain (209ms)
-		LoadAssemblies (86ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (184ms)
+		LoadAssemblies (84ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (206ms)
-			TypeCache.Refresh (205ms)
-				TypeCache.ScanAssembly (188ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (817ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (180ms)
+				TypeCache.ScanAssembly (165ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (934ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (728ms)
+		SetupLoadedEditorAssemblies (858ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (511ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (644ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (149ms)
+			ProcessInitializeOnLoadAttributes (146ms)
 			ProcessInitializeOnLoadMethodAttributes (61ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -145,137 +145,55 @@ Domain Reload Profiling: 1270ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.674 seconds
-Refreshing native plugins compatible for Editor in 1.19 ms, found 0 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.730 seconds
-Domain Reload Profiling: 1404ms
-	BeginReloadAssembly (130ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (440ms)
-		LoadAssemblies (268ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (234ms)
-			TypeCache.Refresh (207ms)
-				TypeCache.ScanAssembly (188ms)
-			ScanForSourceGeneratedMonoScriptInfo (20ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (731ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (525ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (78ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (72ms)
-			ProcessInitializeOnLoadAttributes (338ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3237 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (49.2 KB). Loaded Objects now: 3703.
-Memory consumption went from 128.7 MB to 128.7 MB.
-Total: 4.899220 ms (FindLiveObjects: 0.278983 ms CreateObjectMapping: 0.091662 ms MarkObjects: 4.163310 ms  DeleteObjects: 0.363272 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 4632.524249 seconds.
-  path: Assets/Scripts/Systems/Store
-  artifactKey: Guid(1d5c0658abdae18019c5c86e19a47a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Systems/Store using Guid(1d5c0658abdae18019c5c86e19a47a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0e6906dc13c1c65d59e7d79911b2ba26') in 0.002496 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.749165 seconds.
-  path: Assets/Scripts/Systems/Store/Store.cs
-  artifactKey: Guid(a6eab2ebd59c41b4c80b8e897026d5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Systems/Store/Store.cs using Guid(a6eab2ebd59c41b4c80b8e897026d5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '809327c5939f29b45f6196a7a3693980') in 0.000738 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.465 seconds
+- Loaded All Assemblies, in  0.649 seconds
 Refreshing native plugins compatible for Editor in 1.21 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.952 seconds
-Domain Reload Profiling: 1416ms
-	BeginReloadAssembly (145ms)
+- Finished resetting the current domain, in  0.777 seconds
+Domain Reload Profiling: 1426ms
+	BeginReloadAssembly (139ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (43ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (224ms)
-		LoadAssemblies (257ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (397ms)
+		LoadAssemblies (240ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (27ms)
-			TypeCache.Refresh (12ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (9ms)
+		AnalyzeDomain (219ms)
+			TypeCache.Refresh (195ms)
+				TypeCache.ScanAssembly (178ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
 			ResolveRequiredComponents (6ms)
-	FinalizeReload (952ms)
+	FinalizeReload (778ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (539ms)
+		SetupLoadedEditorAssemblies (560ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (83ms)
-			SetLoadedEditorAssemblies (13ms)
+			InitializePlatformSupportModulesInManaged (75ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (87ms)
-			ProcessInitializeOnLoadAttributes (322ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (362ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
 Refreshing native plugins compatible for Editor in 1.18 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3216 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (31.7 KB). Loaded Objects now: 3707.
-Memory consumption went from 122.0 MB to 121.9 MB.
-Total: 4.431663 ms (FindLiveObjects: 0.340378 ms CreateObjectMapping: 0.079720 ms MarkObjects: 3.931585 ms  DeleteObjects: 0.078397 ms)
+Unloading 3239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (49.1 KB). Loaded Objects now: 3705.
+Memory consumption went from 128.7 MB to 128.7 MB.
+Total: 5.358592 ms (FindLiveObjects: 0.264356 ms CreateObjectMapping: 0.076353 ms MarkObjects: 4.667235 ms  DeleteObjects: 0.348954 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -290,147 +208,1070 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.691303 seconds.
-  path: Assets/Scripts/Systems/Store/Store.cs
-  artifactKey: Guid(a6eab2ebd59c41b4c80b8e897026d5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Systems/Store/Store.cs using Guid(a6eab2ebd59c41b4c80b8e897026d5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'fbd6c2132cad7d5750920f5adaa25978') in 0.001597 seconds
+  Time since last request: 7502.404762 seconds.
+  path: Assets/Prefabs/Shelve/Shelve.prefab
+  artifactKey: Guid(c40d400db2377955190bc56863ca7721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shelve/Shelve.prefab using Guid(c40d400db2377955190bc56863ca7721) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5f3209a8cc1569c9a30bf366a15d5f4f') in 0.106909 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.501 seconds
-Refreshing native plugins compatible for Editor in 1.69 ms, found 0 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.955 seconds
-Domain Reload Profiling: 1455ms
-	BeginReloadAssembly (149ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (39ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (253ms)
-		LoadAssemblies (287ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (30ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (10ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (956ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (510ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (82ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (80ms)
-			ProcessInitializeOnLoadAttributes (307ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 1.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3216 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (31.7 KB). Loaded Objects now: 3710.
-Memory consumption went from 122.0 MB to 121.9 MB.
-Total: 4.507445 ms (FindLiveObjects: 0.324018 ms CreateObjectMapping: 0.081302 ms MarkObjects: 4.020182 ms  DeleteObjects: 0.079880 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Number of asset objects unloaded after import = 22
 ========================================================================
 Received Import Request.
-  Time since last request: 408.900404 seconds.
-  path: Assets/Scripts/Systems/Store/Store.cs
-  artifactKey: Guid(a6eab2ebd59c41b4c80b8e897026d5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Systems/Store/Store.cs using Guid(a6eab2ebd59c41b4c80b8e897026d5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4a4e654db7d149799875e58a2a89be3b') in 0.002139 seconds
+  Time since last request: 6.058574 seconds.
+  path: Assets/Prefabs/Shelve
+  artifactKey: Guid(c89916ac3ff098006b89f71bd0a9e556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shelve using Guid(c89916ac3ff098006b89f71bd0a9e556) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2b74fe8ab9cbda8859862252e3e70054') in 0.000509 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.459 seconds
-Refreshing native plugins compatible for Editor in 1.33 ms, found 0 plugins.
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.932 seconds
-Domain Reload Profiling: 1390ms
-	BeginReloadAssembly (142ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (221ms)
-		LoadAssemblies (256ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (26ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (8ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (932ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (490ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (81ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (80ms)
-			ProcessInitializeOnLoadAttributes (291ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 1.30 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3216 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (31.6 KB). Loaded Objects now: 3713.
-Memory consumption went from 122.0 MB to 121.9 MB.
-Total: 4.161998 ms (FindLiveObjects: 0.271980 ms CreateObjectMapping: 0.065163 ms MarkObjects: 3.739545 ms  DeleteObjects: 0.083707 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 14.697580 seconds.
+  path: Assets/ImportAssets/Flowers/Stylized Plants in Pots
+  artifactKey: Guid(1e17e1e6d2b44d24b53ffbbd435780dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Stylized Plants in Pots using Guid(1e17e1e6d2b44d24b53ffbbd435780dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cf90700fac2eba9bc5b15a203282eba6') in 0.000459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.262068 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack
+  artifactKey: Guid(65fbc1371d88a964ead588322ed8445b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack using Guid(65fbc1371d88a964ead588322ed8445b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a6a8f990ccbe09a9df8aec93b5d36023') in 0.000464 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.205677 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack
+  artifactKey: Guid(5e90077500be3324db59b59556c89502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack using Guid(5e90077500be3324db59b59556c89502) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '36778fd19bd7aca67d35830679099c32') in 0.000497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.939774 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs
+  artifactKey: Guid(ea3698c2c7f142a48be6e78acfb37c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs using Guid(ea3698c2c7f142a48be6e78acfb37c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2352bab7da5e641205381d26076fec7f') in 0.000519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.055186 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_01_01.prefab
+  artifactKey: Guid(355f8608ec978844cab41afd1cad1457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_01_01.prefab using Guid(355f8608ec978844cab41afd1cad1457) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cb8717c83ab1caaf8d4b2270bc9fbda5') in 0.238266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_02_04.prefab
+  artifactKey: Guid(a96949671dd13cf4eb6b6e90134b7f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_02_04.prefab using Guid(a96949671dd13cf4eb6b6e90134b7f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2c9a6cc2c3ccd824e5e4db70d0872d9d') in 0.161245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_07_01.prefab
+  artifactKey: Guid(86d7edb0f984f0148ac8ceb4d7e5a949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_07_01.prefab using Guid(86d7edb0f984f0148ac8ceb4d7e5a949) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'add212cd9aa748234d50d4ae80ce5742') in 0.159084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_01_03.prefab
+  artifactKey: Guid(5185aff562155d447b201730acd673d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_01_03.prefab using Guid(5185aff562155d447b201730acd673d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '99dbdf1ff63d7c90682daa2bc24f1b7e') in 0.161754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_03_01.prefab
+  artifactKey: Guid(340d266c29ab9e843942568a76e50966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_03_01.prefab using Guid(340d266c29ab9e843942568a76e50966) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c5542326d6ce74b7a66a6ad55ad8cd33') in 0.165002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_02_02.prefab
+  artifactKey: Guid(57f77c3a7d356eb42b23fd20e9252999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_02_02.prefab using Guid(57f77c3a7d356eb42b23fd20e9252999) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fe16bdb547fadbee21eb2fa76ae8b9ef') in 0.170795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_09_03.prefab
+  artifactKey: Guid(e2ea55b50dafeaf4b937eda78cfe3ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_09_03.prefab using Guid(e2ea55b50dafeaf4b937eda78cfe3ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8212de2cf0dac712d111defc123dea4f') in 0.158540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_02_03.prefab
+  artifactKey: Guid(93e1dd5d180e4db4ab36c9143783234b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_02_03.prefab using Guid(93e1dd5d180e4db4ab36c9143783234b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a1290a05ff92fb92659349724bcdbaf1') in 0.156781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_10_01.prefab
+  artifactKey: Guid(e32eb0f254cdc7747ba8416dfef94574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_10_01.prefab using Guid(e32eb0f254cdc7747ba8416dfef94574) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e531abb7f44c04b6f972cb0edadb9b58') in 0.163474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_01_02.prefab
+  artifactKey: Guid(4bc7fa6b051e58f44816d288d6074ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_01_02.prefab using Guid(4bc7fa6b051e58f44816d288d6074ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c2e2aad6b4c0cc99bf4fb202d985c08d') in 0.174577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_04_01.prefab
+  artifactKey: Guid(6958131b474cd624584c455d02513397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_04_01.prefab using Guid(6958131b474cd624584c455d02513397) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'be853f044a4f4ff981072ce6dc5d98c6') in 0.165471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_03_03.prefab
+  artifactKey: Guid(7080b9d9a83b6c64ea133e07e9a8ec89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_03_03.prefab using Guid(7080b9d9a83b6c64ea133e07e9a8ec89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c038facbc1c143a3c7f92b343773fdf5') in 0.173325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_09_01.prefab
+  artifactKey: Guid(6662ac34b3a5b194d8afe54b8fc22548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_09_01.prefab using Guid(6662ac34b3a5b194d8afe54b8fc22548) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1c85eea3917f9b6571c3327830e27805') in 0.180137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_04_01.prefab
+  artifactKey: Guid(9aa44f11e7d38674097128cc98843b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_04_01.prefab using Guid(9aa44f11e7d38674097128cc98843b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '97ac182e6c0dd414b784d20a09709137') in 0.159165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_04_02.prefab
+  artifactKey: Guid(47a5dd14a7a48f143b1deda77b169ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_04_02.prefab using Guid(47a5dd14a7a48f143b1deda77b169ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7f77b005d6ab89d1279f35a31dbbff19') in 0.166376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_02_01.prefab
+  artifactKey: Guid(63f14aabb86fe2543a00580cb7d1d1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_02_01.prefab using Guid(63f14aabb86fe2543a00580cb7d1d1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e1f712d68269da26aa28e375d3abd67a') in 0.168051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_03_02.prefab
+  artifactKey: Guid(4f2e6c966d0a1454b8e56e4783f7f0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_03_02.prefab using Guid(4f2e6c966d0a1454b8e56e4783f7f0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd932de1f24861f0ec9fc65afd8b43573') in 0.165538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_04_03.prefab
+  artifactKey: Guid(2f1a9b8489019eb468c8835bae98de28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_04_03.prefab using Guid(2f1a9b8489019eb468c8835bae98de28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '249c32c0951e220f839f08f6501e0490') in 0.163993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_08_03.prefab
+  artifactKey: Guid(16bf05f5338fa0a4bb3eebe6d619d30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_08_03.prefab using Guid(16bf05f5338fa0a4bb3eebe6d619d30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b98d970b690edf544c8ea0d7be99d6af') in 0.160908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_01_01.prefab
+  artifactKey: Guid(5eea9de7fc700a249baa2e4a35af1846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_01_01.prefab using Guid(5eea9de7fc700a249baa2e4a35af1846) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5dd409664af4d622aa82cd271cd601b2') in 0.175799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_02_03.prefab
+  artifactKey: Guid(f22839e8d1ba5f64a94d4f076f699ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_02_03.prefab using Guid(f22839e8d1ba5f64a94d4f076f699ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '38787ffe4bf093260b1b6d668c106b38') in 0.176915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_07_02.prefab
+  artifactKey: Guid(a602764cf791edd4384aa97cb5734da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_07_02.prefab using Guid(a602764cf791edd4384aa97cb5734da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '20c5cddeaff17a894d71a080f67d552f') in 0.171238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Materials/Main Transparent.mat
+  artifactKey: Guid(a144ae4c3c8ddaf4da6639c82a403128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Materials/Main Transparent.mat using Guid(a144ae4c3c8ddaf4da6639c82a403128) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f2e9340d245f28af60cfdbaa745abbea') in 0.106586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Materials/Main Emissive.mat
+  artifactKey: Guid(dd484ae33adcf0646a35ff48fea782d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Materials/Main Emissive.mat using Guid(dd484ae33adcf0646a35ff48fea782d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6d2fd5d3702bc9c38d12258fb91b7b32') in 0.087562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_03_03.prefab
+  artifactKey: Guid(b0b5bcbdd5014354b9ff642a993b9afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_03_03.prefab using Guid(b0b5bcbdd5014354b9ff642a993b9afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '12889ea64692e9abd55274e679d6e8d0') in 0.178523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Materials/Main Mirror.mat
+  artifactKey: Guid(82fcf43a2225c344ca850cfe4de4222a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Materials/Main Mirror.mat using Guid(82fcf43a2225c344ca850cfe4de4222a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '33f4a215acf77aff4614ef5a68a05c65') in 0.006000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Materials/Cor_padrao.mat
+  artifactKey: Guid(88ecf2fb52632c6418301c57cca7929d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Materials/Cor_padrao.mat using Guid(88ecf2fb52632c6418301c57cca7929d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7efb7cd5f2a82aa272b6b6668bb92fb2') in 0.006695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Materials/Main Texture.mat
+  artifactKey: Guid(7eb59a70829984842a0c5958eded289b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Materials/Main Texture.mat using Guid(7eb59a70829984842a0c5958eded289b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9f4fa2c4a6d22accaf91a136d67f71a3') in 0.096258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_10_03.prefab
+  artifactKey: Guid(d902b0e0e9dcf5b469e618e9a8f855cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_10_03.prefab using Guid(d902b0e0e9dcf5b469e618e9a8f855cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '503a6b8b0dafa0ba125651109c168165') in 0.177114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 10.396167 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Materials/Main Emissive.mat
+  artifactKey: Guid(dd484ae33adcf0646a35ff48fea782d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Materials/Main Emissive.mat using Guid(dd484ae33adcf0646a35ff48fea782d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'dcce2efdf543f2f4464c823910bbe09d') in 0.333244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.631970 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_05_01.prefab
+  artifactKey: Guid(633918f494031c54a8df36493bbcf7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_05_01.prefab using Guid(633918f494031c54a8df36493bbcf7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a7d70a2a96f8c4fd0a4588b5b7f2c8c6') in 0.240874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_06_01.prefab
+  artifactKey: Guid(7bf738eab6de46f4984304220963a51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_06_01.prefab using Guid(7bf738eab6de46f4984304220963a51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '997f33c618e98334042c051e76534097') in 0.210833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_07_01.prefab
+  artifactKey: Guid(c424664aae7c2e84f9457f46c4989155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_07_01.prefab using Guid(c424664aae7c2e84f9457f46c4989155) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e2e4a28ad398eedac47a18d136a9d8af') in 0.195985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_06_03.prefab
+  artifactKey: Guid(cf554a0812b96ed4f940a475e068a5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_06_03.prefab using Guid(cf554a0812b96ed4f940a475e068a5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6239ff0b043499e9f89641047645f964') in 0.204678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_07_02.prefab
+  artifactKey: Guid(938e6519f6d251245bbee3f6ec25ff90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_07_02.prefab using Guid(938e6519f6d251245bbee3f6ec25ff90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '33ae9eb03968db7608ca6055a7cf0348') in 0.205065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 14.287310 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_01_02.fbx
+  artifactKey: Guid(b967766edf4c22645b84fc7a0a815c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_01_02.fbx using Guid(b967766edf4c22645b84fc7a0a815c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '149c695c625d3dcc5ade97151c9d69a3') in 0.136630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_08_03.fbx
+  artifactKey: Guid(d2f6ddc012ca0c54cbef734473dcdc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_08_03.fbx using Guid(d2f6ddc012ca0c54cbef734473dcdc96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '66cf917b4789e2b51d1f815b550ad5cf') in 0.109054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_09_02.fbx
+  artifactKey: Guid(c2b6ed666ca91dc45bda7572b4c97245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_09_02.fbx using Guid(c2b6ed666ca91dc45bda7572b4c97245) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6b3a2fc413297ec126489122bdfb1785') in 0.113427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_05_02.fbx
+  artifactKey: Guid(6dda2f21f1ad18044b21825a2c75e386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_05_02.fbx using Guid(6dda2f21f1ad18044b21825a2c75e386) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a1ad712333b43b6d68161ca2a53ef0ce') in 0.103933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_05_03.fbx
+  artifactKey: Guid(42ec0871adc246b418b0d2e66567c01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_05_03.fbx using Guid(42ec0871adc246b418b0d2e66567c01e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '61bc5f640068b0e3867d6c723bcc2e81') in 0.112637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_08_02.fbx
+  artifactKey: Guid(86de4750c3b1e444481488ce3590a85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_08_02.fbx using Guid(86de4750c3b1e444481488ce3590a85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a484c1c3a3f070950a9d0614d86503b9') in 0.121100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_02_03.fbx
+  artifactKey: Guid(b7b1a1fb0aa0b174185ff93026d72c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_02_03.fbx using Guid(b7b1a1fb0aa0b174185ff93026d72c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5ea7e666e56ac7ac9984a9ce528126a6') in 0.114091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_04_01.fbx
+  artifactKey: Guid(ee377737e0e4af845988a6fd0b6bec4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_04_01.fbx using Guid(ee377737e0e4af845988a6fd0b6bec4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c94fc3d1554b174756378182fbb29eb8') in 0.111675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_03_02.fbx
+  artifactKey: Guid(709f8eb9aa3b4b942858bfb3676467ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_03_02.fbx using Guid(709f8eb9aa3b4b942858bfb3676467ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e1da314970fa1c7270efeda2a703e0e9') in 0.107291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_03_01.fbx
+  artifactKey: Guid(d1c0fcdff820dd14795689bbc593257f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_03_01.fbx using Guid(d1c0fcdff820dd14795689bbc593257f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3f1f4d8fa8ef39d04f7d85e857e297ba') in 0.112666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_03_03.fbx
+  artifactKey: Guid(62e8a11865809504ea6bbbdad7892d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_03_03.fbx using Guid(62e8a11865809504ea6bbbdad7892d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f237d49e396a798c5474e5d08a91f1f9') in 0.113029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_06_01.fbx
+  artifactKey: Guid(f69c93bad68ac464a8100fa06ee06a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_06_01.fbx using Guid(f69c93bad68ac464a8100fa06ee06a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '15695146b385c6064d32080edccce974') in 0.118093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_03_01.fbx
+  artifactKey: Guid(b5bf6026d9f943946a05c455a3010728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_03_01.fbx using Guid(b5bf6026d9f943946a05c455a3010728) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a573594027541890c4cbb9c4f8489a37') in 0.115409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_08_01.fbx
+  artifactKey: Guid(435ecdbebb800a74bbae6e829100a47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_08_01.fbx using Guid(435ecdbebb800a74bbae6e829100a47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '24468c937b41f68288b8c08d7c914043') in 0.125485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_03_04.fbx
+  artifactKey: Guid(55811d18a9eab7c4b9a8a935f3d1a3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_03_04.fbx using Guid(55811d18a9eab7c4b9a8a935f3d1a3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '13b222452917b509d147ee9d0e0fac79') in 0.109835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 8.618603 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_02_01.prefab
+  artifactKey: Guid(63f14aabb86fe2543a00580cb7d1d1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_02_01.prefab using Guid(63f14aabb86fe2543a00580cb7d1d1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1a397de1db22913d2d2a9501060d04af') in 0.315729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_02_04.prefab
+  artifactKey: Guid(a96949671dd13cf4eb6b6e90134b7f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_02_04.prefab using Guid(a96949671dd13cf4eb6b6e90134b7f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4e9ebf76e2c2891ae27a3aab035f21ee') in 0.231928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_08_03.prefab
+  artifactKey: Guid(d59bfe2372a359646812d4127aee1154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_08_03.prefab using Guid(d59bfe2372a359646812d4127aee1154) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'adf6008d1a882fd03f4c5ec949bb67bf') in 0.213801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_06_02.prefab
+  artifactKey: Guid(b8ae71f85ed4e2a439430d45966666f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_06_02.prefab using Guid(b8ae71f85ed4e2a439430d45966666f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7df155ab27f7772c0cc358e40e09628e') in 0.215748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_03_03.prefab
+  artifactKey: Guid(7080b9d9a83b6c64ea133e07e9a8ec89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_03_03.prefab using Guid(7080b9d9a83b6c64ea133e07e9a8ec89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8a5226cab922aca0d5729c9510d83d14') in 0.215680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_04_01.prefab
+  artifactKey: Guid(9aa44f11e7d38674097128cc98843b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_04_01.prefab using Guid(9aa44f11e7d38674097128cc98843b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c66560c0b26894c9e666b531ea29f191') in 0.199397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_01_03.prefab
+  artifactKey: Guid(5185aff562155d447b201730acd673d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_01_03.prefab using Guid(5185aff562155d447b201730acd673d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3dc33ea766a6e706cda9290ced6f0963') in 0.204681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_01_03.prefab
+  artifactKey: Guid(5d8af692d06131446b0eb694b3f8ca51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_01_03.prefab using Guid(5d8af692d06131446b0eb694b3f8ca51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd70eb2bcf535f4f72c6ffe798035a82a') in 0.199956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_09_03.prefab
+  artifactKey: Guid(e2ea55b50dafeaf4b937eda78cfe3ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_09_03.prefab using Guid(e2ea55b50dafeaf4b937eda78cfe3ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7cbd39fcdb14143fbd1cb37e22dbdf6e') in 0.198887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_10_01.prefab
+  artifactKey: Guid(e32eb0f254cdc7747ba8416dfef94574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_10_01.prefab using Guid(e32eb0f254cdc7747ba8416dfef94574) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8bc5f0bcdd1e985431ac8388fb6d1f8f') in 0.211123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_01_02.prefab
+  artifactKey: Guid(4bc7fa6b051e58f44816d288d6074ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_01_02.prefab using Guid(4bc7fa6b051e58f44816d288d6074ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '688dc3cb8948372cecee1621527f74d2') in 0.197812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_09_01.prefab
+  artifactKey: Guid(6662ac34b3a5b194d8afe54b8fc22548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_09_01.prefab using Guid(6662ac34b3a5b194d8afe54b8fc22548) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ecb1681549fc8083b00b9da48fe51ba4') in 0.204662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_03_02.prefab
+  artifactKey: Guid(b13aae084c2001e41b6bd4a4dcc3671f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_03_02.prefab using Guid(b13aae084c2001e41b6bd4a4dcc3671f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e51b546195c26b71fa4295fc26fe2aac') in 0.222727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_08_01.prefab
+  artifactKey: Guid(629563af380ee3443ababd902827fb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_08_01.prefab using Guid(629563af380ee3443ababd902827fb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '489c079b91f8f00e8facf8416dc8d265') in 0.203183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_08_03.prefab
+  artifactKey: Guid(16bf05f5338fa0a4bb3eebe6d619d30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_08_03.prefab using Guid(16bf05f5338fa0a4bb3eebe6d619d30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3a85e1c074986fd6ee794be2497fc8cf') in 0.213708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_01_01.prefab
+  artifactKey: Guid(5eea9de7fc700a249baa2e4a35af1846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_01_01.prefab using Guid(5eea9de7fc700a249baa2e4a35af1846) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ccb19b99b1f8db450eb4715f52c0af58') in 0.199123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_07_02.prefab
+  artifactKey: Guid(938e6519f6d251245bbee3f6ec25ff90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_07_02.prefab using Guid(938e6519f6d251245bbee3f6ec25ff90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ccbee126aa3206f8db44256a8e5b903b') in 0.204165 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_07_02.prefab
+  artifactKey: Guid(a602764cf791edd4384aa97cb5734da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_07_02.prefab using Guid(a602764cf791edd4384aa97cb5734da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3e76e2e85f921ec2f523de9d141f9c04') in 0.190974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_05_04.prefab
+  artifactKey: Guid(eef6c44aa672c4b4180cfda99700a8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_05_04.prefab using Guid(eef6c44aa672c4b4180cfda99700a8e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '857aae8d2d1cf91e5051e192fcf2da9e') in 0.188187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_10_03.prefab
+  artifactKey: Guid(d902b0e0e9dcf5b469e618e9a8f855cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_10_03.prefab using Guid(d902b0e0e9dcf5b469e618e9a8f855cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1e3c86ead7d9db8170a86d093ed5a8fa') in 0.165184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 183.622484 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_02_01.prefab
+  artifactKey: Guid(63f14aabb86fe2543a00580cb7d1d1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_02_01.prefab using Guid(63f14aabb86fe2543a00580cb7d1d1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b46dfe1d9ee96f56cf6e55f760f138fe') in 0.283111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_06_01.prefab
+  artifactKey: Guid(7bf738eab6de46f4984304220963a51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_06_01.prefab using Guid(7bf738eab6de46f4984304220963a51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '871e2ed7a174c0886354b787e4829bfc') in 0.200038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_08_04.prefab
+  artifactKey: Guid(75c7f4b3ded42544c8c5ac5fccb79a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_08_04.prefab using Guid(75c7f4b3ded42544c8c5ac5fccb79a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd52a4013d28302a2da00c0c8ce05cb73') in 0.216047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_07_01.prefab
+  artifactKey: Guid(c424664aae7c2e84f9457f46c4989155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_07_01.prefab using Guid(c424664aae7c2e84f9457f46c4989155) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1caa2eae2c9fcca8f0fcf9fca1c6befc') in 0.192125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_06_02.prefab
+  artifactKey: Guid(b8ae71f85ed4e2a439430d45966666f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_06_02.prefab using Guid(b8ae71f85ed4e2a439430d45966666f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '51f604c52e627e28bed63cd8339bdfb3') in 0.187171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_07_03.prefab
+  artifactKey: Guid(b0924a516e62eec42bf902f80ae829bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_07_03.prefab using Guid(b0924a516e62eec42bf902f80ae829bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9747547707432f0c5c0b96c0291275f1') in 0.191810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_02_02.prefab
+  artifactKey: Guid(58ae5ffa58af7e8408246d351688267b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_02_02.prefab using Guid(58ae5ffa58af7e8408246d351688267b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '46a647c4461ea8725b89eaef0f7d513f') in 0.197606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_01_03.prefab
+  artifactKey: Guid(5185aff562155d447b201730acd673d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_01_03.prefab using Guid(5185aff562155d447b201730acd673d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2ef5944dc6221a5d27ff626046b1cc92') in 0.181044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_05_03.prefab
+  artifactKey: Guid(d0cbb5af73eb3ca409048c587f070569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_05_03.prefab using Guid(d0cbb5af73eb3ca409048c587f070569) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '06f689cea5658aec105236ff644e0091') in 0.198502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_03_01.prefab
+  artifactKey: Guid(340d266c29ab9e843942568a76e50966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_03_01.prefab using Guid(340d266c29ab9e843942568a76e50966) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '91450605d07b09ee42149c7e75e71774') in 0.187838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_07_03.prefab
+  artifactKey: Guid(2c18d82e40ae72e42a032ed52b68ad09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_07_03.prefab using Guid(2c18d82e40ae72e42a032ed52b68ad09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b22e8eb7244e3c99b9f08b930e03a4b0') in 0.186252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_10_01.prefab
+  artifactKey: Guid(e32eb0f254cdc7747ba8416dfef94574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_10_01.prefab using Guid(e32eb0f254cdc7747ba8416dfef94574) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1639938332bc91e09c65ff6b50eefe18') in 0.185459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_09_02.prefab
+  artifactKey: Guid(80df1e6c02c6246438fa13884f1a0bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_09_02.prefab using Guid(80df1e6c02c6246438fa13884f1a0bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'bf5b56d3ed5bc6911574bc5731697ca8') in 0.197582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_04_01.prefab
+  artifactKey: Guid(6958131b474cd624584c455d02513397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_04_01.prefab using Guid(6958131b474cd624584c455d02513397) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b8e2ad40b9824c7b632dcca6686d2055') in 0.186164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_03_01.prefab
+  artifactKey: Guid(044bd515c641c314790fcf6ea9279f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_03_01.prefab using Guid(044bd515c641c314790fcf6ea9279f7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e264c18792ce4d692f6d61ddbd26895a') in 0.190901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_04_04.prefab
+  artifactKey: Guid(933e42d8c4cfaef4dab3c3c532c01e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_04_04.prefab using Guid(933e42d8c4cfaef4dab3c3c532c01e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '13181cc3ad99c2a0a3c3e98a9d858235') in 0.196977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_03_02.prefab
+  artifactKey: Guid(b13aae084c2001e41b6bd4a4dcc3671f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_03_02.prefab using Guid(b13aae084c2001e41b6bd4a4dcc3671f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '437d4aba7ed5442d9210f6094b70afcc') in 0.210187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_04_02.prefab
+  artifactKey: Guid(47a5dd14a7a48f143b1deda77b169ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_04_02.prefab using Guid(47a5dd14a7a48f143b1deda77b169ec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b388c09419885992c8e39e7e8732163c') in 0.202509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_06_03.prefab
+  artifactKey: Guid(cf554a0812b96ed4f940a475e068a5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_06_03.prefab using Guid(cf554a0812b96ed4f940a475e068a5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1026a03dd865025a09ee6714ea249d52') in 0.196462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_03_02.prefab
+  artifactKey: Guid(4f2e6c966d0a1454b8e56e4783f7f0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_03_02.prefab using Guid(4f2e6c966d0a1454b8e56e4783f7f0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4ccdfed71e8988f092753b97c9830ba6') in 0.201491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_08_01.prefab
+  artifactKey: Guid(629563af380ee3443ababd902827fb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_08_01.prefab using Guid(629563af380ee3443ababd902827fb7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '64b17bec5a8eb97e15d6a595a716cc16') in 0.213974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_08_03.prefab
+  artifactKey: Guid(16bf05f5338fa0a4bb3eebe6d619d30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_08_03.prefab using Guid(16bf05f5338fa0a4bb3eebe6d619d30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c85281cddd4dc3d1e0f37c7ed4e254a3') in 0.200648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_06_02.prefab
+  artifactKey: Guid(a1d0eee59e8fc1740ae9ad80096b853d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_06_02.prefab using Guid(a1d0eee59e8fc1740ae9ad80096b853d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f503ac4131de2ca5c639ca8bd522bac0') in 0.203768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_04_02.prefab
+  artifactKey: Guid(ff55d871c9024b048a2839290bb42bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_04_02.prefab using Guid(ff55d871c9024b048a2839290bb42bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ea441d9d9685c08aed022a2875c67228') in 0.196538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_05_03.prefab
+  artifactKey: Guid(869129c6b5957cb47990a7d6bfde5694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_05_03.prefab using Guid(869129c6b5957cb47990a7d6bfde5694) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '371d3f7cfc9dc299640ad1386e21a5aa') in 0.214440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_05_01.prefab
+  artifactKey: Guid(1f86ac0ee023f7e4aafc912fad73d4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_05_01.prefab using Guid(1f86ac0ee023f7e4aafc912fad73d4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7d9ec28b664ea4b4662bc50790cc2af6') in 0.225068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Prefabs/Shelve/Shelve.prefab
+  artifactKey: Guid(c40d400db2377955190bc56863ca7721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shelve/Shelve.prefab using Guid(c40d400db2377955190bc56863ca7721) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '110d153a30e1dcca62642855531d7735') in 0.227066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_05_02.prefab
+  artifactKey: Guid(a4c4ee11ebed941438cd57938c0240e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportAssets/Flowers/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_05_02.prefab using Guid(a4c4ee11ebed941438cd57938c0240e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '72accef28690f2c254844719b8c4c388') in 0.218854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 125, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting

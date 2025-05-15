@@ -20,3 +20,4 @@ Bin/
 *.opendb
 *.VC.db
 *.pidb.meta
+Bin/Linux/FlowerStore_Data
