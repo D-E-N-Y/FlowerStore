@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class UI_Inventory : MonoBehaviour
 {
-    [SerializeField] private UI_Item ui_itemPrefab;
+    [SerializeField] private UI_InventorySlot ui_inventorySlotPrefab;
     [SerializeField] private GameObject itemsContainer;
-    private List<UI_Item> ui_items;
+    private List<UI_InventorySlot> ui_inventorySlots;
 
     private void OnEnable()
     {
@@ -22,23 +22,23 @@ public class UI_Inventory : MonoBehaviour
     void UpdateData()
     {
         List<Item> items = InventorySystem.current.items;
-        ui_items = itemsContainer.GetComponentsInChildren<UI_Item>(true).ToList();
+        ui_inventorySlots = itemsContainer.GetComponentsInChildren<UI_InventorySlot>(true).ToList();
 
-        int dif = items.Count - ui_items.Count;
+        int dif = items.Count - ui_inventorySlots.Count;
         if (dif > 0)
         {
             for (int i = 0; i < dif; i++)
             {
-                UI_Item _ui_item = Instantiate(ui_itemPrefab, itemsContainer.transform);
-                ui_items.Add(_ui_item);
+                UI_InventorySlot ui_slot = Instantiate(ui_inventorySlotPrefab, itemsContainer.transform);
+                ui_inventorySlots.Add(ui_slot);
             }
         }
-        ui_items.ForEach(x => x.gameObject.SetActive(false));
+        ui_inventorySlots.ForEach(x => x.gameObject.SetActive(false));
         
         for (int i = 0; i < items.Count; i++)
         {
-            ui_items[i].Initialize(items[i]);
-            ui_items[i].gameObject.SetActive(true);
+            ui_inventorySlots[i].Initialize(items[i]);
+            ui_inventorySlots[i].gameObject.SetActive(true);
         }
     }
 

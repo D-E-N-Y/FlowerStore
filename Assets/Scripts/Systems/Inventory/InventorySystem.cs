@@ -20,4 +20,10 @@ public class InventorySystem : MonoBehaviour
         items.Add(item);
         updateData?.Invoke();
     }
+
+    public void RemoveItem(Item item)
+    {
+        items.Remove(item);
+        updateData?.Invoke();
+    }
 }
