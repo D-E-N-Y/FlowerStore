@@ -47,3 +47,5 @@ MonoBehaviour:
   itemName: Lotus
   description: Adds 4 extra client spots in your store
   sprite: {fileID: 21300000, guid: 84c8f8cc5a9666835a31c67e643d1c7e, type: 3}
+  effect: 1
+  effectValue: 4

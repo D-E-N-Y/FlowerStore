@@ -11,12 +11,17 @@ public class Store : MonoBehaviour
     [SerializeField] private List<Shelve> shelves;
     [SerializeField] private CashierOffice cashierOffice;
     [SerializeField, Range(1, 10)] private int maxClients;
+    private int originMaxClient;
     private int currentClients;
 
     public void Initialize()
     {
+        originMaxClient = maxClients;
+
         shelves.ForEach(x => x.Initialize());
         cashierOffice.Initialize();
+
+        GameBalance.current.updateData += SetMaxClients;
     }
 
     public EStoreType Type() => type;
@@ -47,4 +52,20 @@ public class Store : MonoBehaviour
     public bool CanEnterClient() => currentClients < maxClients;
     public int GetCurrentClients() => currentClients;
     public int GetMaxClients() => maxClients;
+
+    private void SetMaxClients()
+    {
+        int boost = (int)GameBalance.current.GetEffect(EEffectType.IncreaseClientSlots);
+
+        if (boost == 0)
+        {
+            maxClients = originMaxClient;
+        }
+        else
+        {
+            maxClients = originMaxClient + boost;
+        }
+
+        updateData?.Invoke();
+    }
 }

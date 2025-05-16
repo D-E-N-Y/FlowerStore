@@ -1,11 +1,11 @@
 using System;
+using UnityEngine;
 
 public class Flower : Item
 {
-    public Action applyEffect;
+    [SerializeField] private EEffectType effect;
+    [SerializeField, Range(0.1f, 100)] private float effectValue;
 
-    public void ApplyEffent()
-    {
-        applyEffect?.Invoke();
-    }
+    public EEffectType GetEffect() => effect;
+    public float GetEffectValue() => effectValue;
 }

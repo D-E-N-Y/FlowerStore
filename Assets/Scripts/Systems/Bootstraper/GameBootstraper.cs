@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class GameBootstraper : MonoBehaviour
 {
+    [SerializeField] private GameBalance gameBalancel;
     [SerializeField] private ResourceSystem resourceSystem;
     [SerializeField] private InventorySystem inventorySystem;
     [SerializeField] private CraftSystem craftSystem;
@@ -14,6 +15,8 @@ public class GameBootstraper : MonoBehaviour
     
     private void Start() 
     {
+        gameBalancel.Initiailize();
+
         resourceSystem.Initialize();
         inventorySystem.Initialize();
         craftSystem.Initialize();

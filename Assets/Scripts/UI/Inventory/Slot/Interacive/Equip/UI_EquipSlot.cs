@@ -3,6 +3,7 @@ using UnityEngine.EventSystems;
 
 public class UI_EquipSlot : UI_InteractiveSlot
 {
+    public Action<EEffectType, float> setEffect;
     protected override Type ItemType() => typeof(Flower);
 
     public override void OnDrop(PointerEventData eventData)

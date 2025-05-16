@@ -263,3 +263,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 0}
   ui_world: {fileID: 7072288790545288920}
+  ui_itemImage: {fileID: 3626961912557737907}

@@ -47,3 +47,5 @@ MonoBehaviour:
   itemName: Stayroot
   description: Reduces the chance of clients leaving by 20%
   sprite: {fileID: 21300000, guid: 3fb37228c70025a3fb9c863a4ccf2864, type: 3}
+  effect: 4
+  effectValue: 0.2

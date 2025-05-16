@@ -54,14 +54,15 @@ public class Shelve : MonoBehaviour
     public List<SCost> GetPrice()
     {
         List<SCost> _price = new List<SCost>();
-        
-        foreach(SCost current in flower.GetPrice())
+
+        foreach (SCost current in flower.GetPrice())
         {
+            int amount = Mathf.RoundToInt(current.amount * (1 + priceModificator * (currentLevel - 1)));
+
             _price.Add(new SCost(
                 current.resource,
-                Mathf.RoundToInt(current.amount * (1 + priceModificator * (currentLevel - 1)))
-                )
-            );
+                amount + (int)(amount * GameBalance.current.GetEffect(EEffectType.IncreaseValue))
+            ));
         }
 
         return _price;

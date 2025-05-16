@@ -3,6 +3,7 @@ using UnityEngine;
 public class StoreTrigger : MonoBehaviour
 {
     [SerializeField] private Store store;
+    [SerializeField, Range(1, 100)] private float changeEnterStore;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -18,12 +19,12 @@ public class StoreTrigger : MonoBehaviour
 
             if (!store.CanEnterClient()) return;
 
-            int choice = Random.Range(1, 10);
-            if (choice > 4) return;
+            int choice = Random.Range(1, 100);
+            if (choice > changeEnterStore + GameBalance.current.GetEffect(EEffectType.IncreaseEnterChance)) return;
 
             store.EnterClient();
             client.SetStore(store);
-            client.SetState(EClientState.OnStore); 
+            client.SetState(EClientState.OnStore);
         }
     }
 }

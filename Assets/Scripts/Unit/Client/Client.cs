@@ -13,15 +13,15 @@ public class Client : MonoBehaviour
     [SerializeField] private UnitMovement movement;
 
     [SerializeField, Range(1, 10)] private float lookingTime;
-    [SerializeField, Range(1, 10)] private float changePay;
-    [SerializeField, Range(1, 10)] private float changeOut;
+    [SerializeField, Range(1, 100)] private float changePay;
+    [SerializeField, Range(1, 100)] private float changeOut;
 
-    [SerializeField, Range(1, 10)] private float changeGetTips;
+    [SerializeField, Range(1, 100)] private float changeGetTips;
     [SerializeField] private DropedItem pelt;
 
     private Store store;
+    private Shelve shelve;
     private CashierOffice cashierOffice;
-    private List<SCost> priceItem;
 
     private Coroutine live;
 
@@ -81,21 +81,23 @@ public class Client : MonoBehaviour
 
     private IEnumerator OnStore()
     {
-        Shelve _shelve = store.GetRandomShelve();
+        shelve = store.GetRandomShelve();
 
-        movement.MoveTo(_shelve.RandomPosition());
+        movement.MoveTo(shelve.RandomPosition());
         while (movement.isMoving) yield return null;
 
         yield return new WaitForSeconds(lookingTime);
 
-        int choice = Random.Range(1, 11);
+        float _changePay = changePay + GameBalance.current.GetEffect(EEffectType.IncreaseBuyChance) * changePay;
+        float _changeOut = changeOut - GameBalance.current.GetEffect(EEffectType.DecreaseLeaveChance) * changeOut + _changePay;
+
+        int choice = Random.Range(1, (int)_changeOut);
         if (choice <= changePay)
         {
-            priceItem = _shelve.GetPrice();
             cashierOffice = store.GetCashierOffice();
             cashierOffice.AddToOrder(this);
         }
-        else if (choice == changeOut)
+        else if (choice <= _changeOut)
         {
             GoOut();
         }
@@ -111,15 +113,15 @@ public class Client : MonoBehaviour
 
     public void Pay()
     {
-        foreach (SCost price in priceItem)
+        foreach (SCost price in shelve.GetPrice())
         {
             ResourceSystem.current.AddResource(price.resource, price.amount);
         }
-        priceItem = null;
+        shelve = null;
 
         // get tips
-        int choice = Random.Range(0, 10);
-        if (choice <= changeGetTips)
+        int choice = Random.Range(1, 100);
+        if (choice <= changeGetTips + GameBalance.current.GetEffect(EEffectType.IncreaseTipChance) * changeGetTips)
         {
             Vector3 _position = new Vector3(
                 Random.Range(transform.position.x - 0.5f, transform.position.x + 0.5f),

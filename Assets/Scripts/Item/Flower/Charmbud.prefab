@@ -47,3 +47,5 @@ MonoBehaviour:
   itemName: Charmbud
   description: Increases the chance of a client choosing an item by 20%
   sprite: {fileID: 21300000, guid: 96ac0de6d99015c74a8829b4f3984e42, type: 3}
+  effect: 5
+  effectValue: 0.2

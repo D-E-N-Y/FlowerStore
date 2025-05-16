@@ -38,7 +38,7 @@ public class CashierOffice : MonoBehaviour
     {
         isService = true;
 
-        yield return new WaitForSeconds(timeService);
+        yield return new WaitForSeconds(timeService - GameBalance.current.GetEffect(EEffectType.SpeedUpCheckout) * timeService);
 
         orderClients[0].inPlace -= StartService;
 

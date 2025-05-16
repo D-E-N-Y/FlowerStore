@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4120064808208716512}
   - component: {fileID: -6604057470986929327}
   m_Layer: 0
-  m_Name: Goldbloom
+  m_Name: Tiproot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -44,8 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a62557a841c346ed99bcbbed723e09a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: Goldbloom
-  description: Increases the value of all flowers by 50%
-  sprite: {fileID: 21300000, guid: a3eec975d2e8cbc54ad48cbd8beea723, type: 3}
-  effect: 0
-  effectValue: 0.5
+  itemName: Tiproot
+  description: Increases the chance that a customer will leave a tip by 20%
+  sprite: {fileID: 21300000, guid: cc9708b60f9e79b0fb9b09fe4ea7473c, type: 3}
+  effect: 6
+  effectValue: 0.2
