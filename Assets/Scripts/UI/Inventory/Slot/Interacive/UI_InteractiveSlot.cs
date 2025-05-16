@@ -8,6 +8,7 @@ public abstract class UI_InteractiveSlot : MonoBehaviour, IDropHandler
     public Action getItem;
 
     [SerializeField] protected int slot;
+    [SerializeField] private TooltipTrigger tooltip;
 
     [System.Serializable]
     private struct SItemInSlot
@@ -38,6 +39,7 @@ public abstract class UI_InteractiveSlot : MonoBehaviour, IDropHandler
         ui_itemImage.sprite = item.GetSprite();
         ui_itemImage.color = itemInSlot.have;
 
+        tooltip.SetText(item.GetName(), item.GetDescription());
         getItem?.Invoke();
     }
 
@@ -47,6 +49,7 @@ public abstract class UI_InteractiveSlot : MonoBehaviour, IDropHandler
         ui_itemImage.color = itemInSlot.notHave;
         item = null;
         
+        tooltip.SetText("", "");
         getItem?.Invoke();
     }
 

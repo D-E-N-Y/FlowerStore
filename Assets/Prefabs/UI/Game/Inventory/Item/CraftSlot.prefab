@@ -89,6 +89,7 @@ GameObject:
   - component: {fileID: 7494789600054641682}
   - component: {fileID: 1302179263965310326}
   - component: {fileID: 5786903894771008609}
+  - component: {fileID: -2141286233666122041}
   m_Layer: 0
   m_Name: CraftSlot
   m_TagString: Untagged
@@ -243,8 +244,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slot: 0
+  tooltip: {fileID: -2141286233666122041}
   itemInSlot:
     sprite: {fileID: 21300000, guid: 2a2a2b92f36b9988481ea44022bd5412, type: 3}
     have: {r: 1, g: 1, b: 1, a: 1}
     notHave: {r: 0.8, g: 0.8, b: 0.8, a: 0.39215687}
   ui_itemImage: {fileID: 988725888356958842}
+--- !u!114 &-2141286233666122041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5495650668374267074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97c69bed3feb54ed283cc311b3d09b6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

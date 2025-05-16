@@ -12,8 +12,9 @@ public class GameBootstraper : MonoBehaviour
     [SerializeField] private Store store;
 
     [SerializeField] private GameUI gameUI;
-    
-    private void Start() 
+    [SerializeField] private TooltipSystem tooltipSystem;
+
+    private void Start()
     {
         gameBalancel.Initiailize();
 
@@ -22,9 +23,10 @@ public class GameBootstraper : MonoBehaviour
         craftSystem.Initialize();
         equipSystem.Initialize();
         clientsSystem.Initialize();
-        
+
         store.Initialize();
 
         gameUI.Initialize(store);
+        tooltipSystem.Initialize();
     }
 }
