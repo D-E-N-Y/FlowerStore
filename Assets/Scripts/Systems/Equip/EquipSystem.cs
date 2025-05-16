@@ -7,7 +7,7 @@ public class EquipSystem : MonoBehaviour
     public static EquipSystem current;
     public Action updateData;
 
-    private List<SUISlot> items;
+    public List<SUISlot> items { get; private set; }
 
     public void Initialize()
     {

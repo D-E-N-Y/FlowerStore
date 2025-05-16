@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public abstract class UI_InteractiveSlot : MonoBehaviour, IDropHandler
 {
+    public Action getItem;
+
     [SerializeField] protected int slot;
 
     [System.Serializable]
@@ -35,20 +37,30 @@ public abstract class UI_InteractiveSlot : MonoBehaviour, IDropHandler
         InventorySystem.current.RemoveItem(item);
         ui_itemImage.sprite = item.GetSprite();
         ui_itemImage.color = itemInSlot.have;
+
+        getItem?.Invoke();
     }
 
     public virtual void RemoveItem()
     {
+        ui_itemImage.sprite = itemInSlot.sprite;
+        ui_itemImage.color = itemInSlot.notHave;
+        item = null;
+        
+        getItem?.Invoke();
+    }
+
+    public virtual void DropItem()
+    {
         if (item == null) return;
 
         InventorySystem.current.AddItem(item);
-
-        ui_itemImage.sprite = itemInSlot.sprite;
-        ui_itemImage.color = itemInSlot.notHave;
     }
 
-    protected virtual void HasItem()
+    protected virtual void ReplaceItem()
     {
         InventorySystem.current.AddItem(item);
     }
+
+    public bool HasItem() => item != null;
 }

@@ -9,7 +9,7 @@ public class CraftSystem : MonoBehaviour
     public Action updateData;
 
     [SerializeField] private List<Flower> craftableItems;
-    private List<SUISlot> items;
+    public List<SUISlot> items { get; private set; }
 
     public void Initialize()
     {
@@ -29,11 +29,11 @@ public class CraftSystem : MonoBehaviour
         updateData?.Invoke();
     }
 
-    public void Craft()
+    public Flower Craft()
     {
-        if (items.Count == 5)
-        {
-            // craft
-        }
+        if (items.Count == 5) return null;
+
+        Flower _flower = craftableItems[UnityEngine.Random.Range(0, craftableItems.Count)];
+        return _flower;
     }
 }

@@ -200,7 +200,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 5786903894771008609}
         m_TargetAssemblyTypeName: UI_CraftSlot, Assembly-CSharp
-        m_MethodName: RemoveItem
+        m_MethodName: DropItem
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

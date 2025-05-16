@@ -11,16 +11,23 @@ public class UI_EquipSlot : UI_InteractiveSlot
         EquipSystem.current.AddItem(slot, item);
     }
 
-    public override void RemoveItem()
+    public override void DropItem()
     {
-        base.RemoveItem();
-        EquipSystem.current.RemoveItem(slot, item);
-        item = null;
+        base.DropItem();
+        RemoveItem();
     }
 
-    protected override void HasItem()
+    protected override void ReplaceItem()
     {
         base.HasItem();
         EquipSystem.current.RemoveItem(slot, item);
+    }
+
+    public override void RemoveItem()
+    {
+        if (item == null) return;
+
+        EquipSystem.current.RemoveItem(slot, item);
+        base.RemoveItem();
     }
 }
