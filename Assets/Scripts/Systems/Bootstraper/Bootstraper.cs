@@ -13,6 +13,6 @@ public class Bootstraper : MonoBehaviour
 
         // audioSystem.Initialize();    
 
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("MainMenuScene");
     }
 }
