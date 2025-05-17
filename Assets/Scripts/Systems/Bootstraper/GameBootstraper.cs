@@ -4,6 +4,7 @@ public class GameBootstraper : MonoBehaviour
 {
     [SerializeField] private GameBalance gameBalancel;
     [SerializeField] private ResourceSystem resourceSystem;
+    [SerializeField] private InteractionSystem interactionSystem;
     [SerializeField] private InventorySystem inventorySystem;
     [SerializeField] private CraftSystem craftSystem;
     [SerializeField] private EquipSystem equipSystem;
@@ -19,6 +20,7 @@ public class GameBootstraper : MonoBehaviour
         gameBalancel.Initiailize();
 
         resourceSystem.Initialize();
+        interactionSystem.Initialize();
         inventorySystem.Initialize();
         craftSystem.Initialize();
         equipSystem.Initialize();

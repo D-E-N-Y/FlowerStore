@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Shelve : MonoBehaviour 
+public class Shelve : Actor 
 {
     public System.Action updateData;
     
@@ -19,8 +19,10 @@ public class Shelve : MonoBehaviour
     [SerializeField] private List<Transform> floors;
     public PreviewFlower flower { get; private set; }
 
-    public void Initialize()
+    public override void Initialize()
     {
+        base.Initialize();
+
         // initialize flowers in for each floor        
         flower = floors[0].GetComponentInChildren<PreviewFlower>();
         foreach(Transform floor in floors)
