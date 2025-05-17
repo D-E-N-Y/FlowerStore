@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class Actor : MonoBehaviour
 {
+    [SerializeField] private string nameActor;
+
     private string selectLayer;
     private string defaultLayer;
 
@@ -22,4 +24,6 @@ public class Actor : MonoBehaviour
             SetLayerRecursively(child.gameObject, newLayer);
         }
     }
+
+    public string GetName() => nameActor;
 }

@@ -113,7 +113,7 @@ public class Client : MonoBehaviour
 
     public void Pay()
     {
-        foreach (SCost price in shelve.GetPrice())
+        foreach (SCost price in shelve.GetFlowerCost())
         {
             ResourceSystem.current.AddResource(price.resource, price.amount);
         }

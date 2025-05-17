@@ -17,7 +17,7 @@ public class StoreTrigger : MonoBehaviour
                 return;
             }
 
-            if (!store.CanEnterClient()) return;
+            if (!store.CanEnterClient() || !store.GetRandomShelve()) return;
 
             int choice = Random.Range(1, 100);
             if (choice > changeEnterStore + GameBalance.current.GetEffect(EEffectType.IncreaseEnterChance)) return;

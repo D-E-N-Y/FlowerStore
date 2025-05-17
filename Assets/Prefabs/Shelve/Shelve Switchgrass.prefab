@@ -753,8 +753,28 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 778442754053167948, guid: c40d400db2377955190bc56863ca7721, type: 3}
+      propertyPath: nameActor
+      value: Shelve Switchgrass
+      objectReference: {fileID: 0}
+    - target: {fileID: 778442754053167948, guid: c40d400db2377955190bc56863ca7721, type: 3}
       propertyPath: priceModificator
-      value: 0.1
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 778442754053167948, guid: c40d400db2377955190bc56863ca7721, type: 3}
+      propertyPath: buildCost.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 778442754053167948, guid: c40d400db2377955190bc56863ca7721, type: 3}
+      propertyPath: upgradeCost.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 778442754053167948, guid: c40d400db2377955190bc56863ca7721, type: 3}
+      propertyPath: buildCost.Array.data[0].amount
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 778442754053167948, guid: c40d400db2377955190bc56863ca7721, type: 3}
+      propertyPath: upgradeCost.Array.data[0].amount
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 1028580668446768134, guid: c40d400db2377955190bc56863ca7721, type: 3}
       propertyPath: m_LocalPosition.x

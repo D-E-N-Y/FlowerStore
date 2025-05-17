@@ -4,7 +4,7 @@ using UnityEngine;
 public struct SCost
 {
     public EResourceType resource;
-    [Range(0, 9999)] public int amount;
+    [Range(0, 99999)] public int amount;
 
     public SCost(EResourceType resource, int amount)
     {

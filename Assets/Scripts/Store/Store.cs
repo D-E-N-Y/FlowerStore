@@ -28,7 +28,16 @@ public class Store : MonoBehaviour
     public Shelve GetRandomShelve()
     {
         List<Shelve> available = shelves.Where(x => x.isBuild).ToList();
-        return available[UnityEngine.Random.Range(0, available.Count)];
+
+        if (available.Count > 0)
+        {
+            return available[UnityEngine.Random.Range(0, available.Count)];
+        }
+        else
+        {
+            return null;
+        }
+        
     }
 
     public CashierOffice GetCashierOffice() => cashierOffice;
