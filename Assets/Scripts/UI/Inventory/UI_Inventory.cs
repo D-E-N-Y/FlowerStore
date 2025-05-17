@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class UI_Inventory : MonoBehaviour
+public class UI_Inventory : UI_Panel
 {
     [SerializeField] private UI_InventorySlot ui_inventorySlotPrefab;
     [SerializeField] private GameObject itemsContainer;
@@ -40,15 +40,5 @@ public class UI_Inventory : MonoBehaviour
             ui_inventorySlots[i].Initialize(items[i]);
             ui_inventorySlots[i].gameObject.SetActive(true);
         }
-    }
-
-    public void Hide()
-    {
-        gameObject.SetActive(false);
-    }
-
-    public void Show()
-    {
-        gameObject.SetActive(true);
     }
 }

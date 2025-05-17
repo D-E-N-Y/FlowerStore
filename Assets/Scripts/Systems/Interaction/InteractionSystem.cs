@@ -38,8 +38,6 @@ public class InteractionSystem : MonoBehaviour
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         if(Physics.Raycast(ray, out RaycastHit raycastHit, 999))
         {
-            UnSelectActor();
-
             if (raycastHit.transform.gameObject.layer == layerInteractable || raycastHit.transform.gameObject.layer == layerSelect)
             {
                 Transform actor = raycastHit.transform;
